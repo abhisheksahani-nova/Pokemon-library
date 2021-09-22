@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #def3fd;
+  margin: 0;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333333;
+}
+
+.heading {
+  margin: 3rem auto;
+  color: rgb(61, 131, 127);
+}
+
+.pokemon-container {
+  width: 86%;
+  margin: 0 auto 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.Pokemon {
+  width: 16rem;
+  height: 17rem;
+  padding: 1rem 4rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  background-color: #a8e7e9;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  transition: transform 450ms;
+}
+
+.Pokemon:hover {
+  transform: scale(1.09);
+}
